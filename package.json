@@ -1,0 +1,37 @@
+{
+  "name": "agnostic-http-error-handler",
+  "version": "1.0.0",
+  "description": "Node.js framework agnostic HTTP error handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkyberneees/http-error-handler.git"
+  },
+  "keywords": [
+    "HTTP",
+    "error",
+    "handler"
+  ],
+  "author": "Rolando Santamaria Maso <kyberneees@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkyberneees/http-error-handler/issues"
+  },
+  "homepage": "https://github.com/jkyberneees/http-error-handler#readme",
+  "dependencies": {
+    "@polka/send-type": "^0.5.2",
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {
+    "boom": "^7.3.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0",
+    "restana": "^4.0.8",
+    "standard": "^14.3.1"
+  }
+}
